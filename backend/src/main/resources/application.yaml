@@ -1,6 +1,6 @@
 spring:
   application:
-    name: tracker
+    name: expense-tracker
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -15,7 +15,7 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: lakshman@example.com
+    username: lakshman@example.com # Use you email address
     password: njnwcxikjttmqtci    # Use a Google App Password, not your regular password
     properties:
       mail:
